@@ -11,23 +11,23 @@ class Header extends React.Component {
                 <Router>
                     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                         <div className="container">
-                            <a href="http://Virus008.github.io/browser-router" className="navbar-brand">Virus08</a>
+                            <a href="/browser-router" className="navbar-brand">Virus08</a>
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav1" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
                             <div className="collapse navbar-collapse" id="mynav1">
                                 <div className="navbar-nav">
-                                    <a href="http://Virus008.github.io/about" className="nav-item nav-link">About</a>
-                                    <a href="http://Virus008.github.io/contact" className="nav-item nav-link">Contact</a>
+                                    <a href="/about" className="nav-item nav-link">About</a>
+                                    <a href="/contact" className="nav-item nav-link">Contact</a>
                                 </div>
                             </div>
                         </div>
                     </nav>
                     <br></br>
                     <div className="content">
-                        <Route exact path="http://Virus008.github.io/browser-router" component={Home}></Route>
-                        <Route exact path="http://Virus008.github.io/about" component={About}></Route>
-                        <Route exact path="http://Virus008.github.io/contact" component={Contact}></Route>
+                        <Route exact path="/browser-router" component={Home}></Route>
+                        <Route exact path="/about" component={About}></Route>
+                        <Route exact path="/contact" component={Contact}></Route>
                     </div>
                 </Router>
             </div>
